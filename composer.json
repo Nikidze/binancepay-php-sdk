@@ -1,0 +1,22 @@
+{
+    "name": "nikidze/binancepay-php-sdk",
+    "description": "Binance Pay API PHP SDK",
+    "type": "library",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nikidze\\BinancepayPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikdize",
+            "email": "nikidze-backend@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
