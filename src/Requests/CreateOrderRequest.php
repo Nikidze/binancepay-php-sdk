@@ -62,7 +62,7 @@ class CreateOrderRequest extends ApiRequest
         return $this;
     }
 
-    public function setOrderAmount(int $order_amount): self
+    public function setOrderAmount(float $order_amount): self
     {
         $this->order_amount = $order_amount;
         return $this;
